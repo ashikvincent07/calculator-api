@@ -1,0 +1,74 @@
+# cross site request forgery attack
+
+# api call for addition
+POST http://127.0.0.1:8000/add/
+Content-Type: application/json
+
+{
+    "num1" : 20,
+    "num2" : 1750
+}
+
+###
+
+# api call for multiplication
+POST http://127.0.0.1:8000/multiply/
+Content-Type: application/json
+
+{
+    "num1" : 20,
+    "num2" : 8
+}
+
+###
+
+# api call for subtraction
+POST http://127.0.0.1:8000/difference/
+Content-Type: application/json
+
+{
+    "num1" : 20,
+    "num2" : 8
+}
+
+###
+
+# api call for division
+POST http://127.0.0.1:8000/divide/
+Content-Type: application/json
+
+{
+    "num1" : 20,
+    "num2" : 8
+}
+
+###
+
+# api call for cube
+POST http://127.0.0.1:8000/cube/
+Content-Type: application/json
+
+{
+    "num" : 7
+}
+
+###
+
+# api call for find factorial
+POST http://127.0.0.1:8000/factorial/
+Content-Type: application/json
+
+{
+    "num" : 0
+}
+
+###
+
+# api call for find square
+POST http://127.0.0.1:8000/square/
+Content-Type: application/json
+
+{
+    "num" : 13
+}
+
